@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - TatterChip Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="accomplishments.html">Accomplishments</a>
+    <a href="goals.html">Goals</a>
+    <a href="interests.html">Interests</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main id="contact">
+    <h2>Get In Touch</h2>
+    <p>Have a question about my game dev projects or just want to say hi? Fill out the form below!</p>
+    
+    <form action="#" method="post" class="responsive-form" onsubmit="alert('Thanks for your message!')">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Topic:</label>
+        <select id="subject" name="subject">
+            <option value="general">General Question</option>
+            <option value="gamedev">Game Development</option>
+            <option value="collaboration">Collaboration</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message" class="submit-btn">
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 TatterChip Portfolio</p>
+</footer>
+
+</body>
+</html>
